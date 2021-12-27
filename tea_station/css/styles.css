@@ -153,11 +153,29 @@ p {
 }
 
 /* Styles */
+/* 
+=================
+Navbar
+=================
+*/
+.nav-btn {
+    position: fixed;
+    /* from top */
+    top: 5%;
+    /* from left */
+    left: 5%;
+    font-size: 2.5rem;
+    color: var(--clr-primary);
+    z-index: 1;
+    cursor: pointer;
+    /* animation */
+    
+}
 
 /* 
-===================
+=================
 Header
-===================
+=================
 */
 
 .header {
@@ -550,11 +568,36 @@ Contact
     }  
 }
 
-
 /* 
 ================
 Footer
 ================
 */
 
+.footer {
+    background: #222;
+    text-align: center;
+}
+
+.social-icon {
+    color: var(--clr-white);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: var(--transition);
+}
+
+.social-icon:hover {
+    color: var(--clr-primary);
+}
+
+.footer-text {
+    margin-top: 1.25rem;
+    text-transform: uppercase;
+    color: var(--clr-white);
+    font-weight: 400;
+}
+
+.company {
+    color: var(--clr-primary);
+}
 
