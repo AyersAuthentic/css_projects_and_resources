@@ -1,10 +1,10 @@
-// ********** set date ************
+// ********** Set Date ************
 // select span
 const date = (document.getElementById(
   "date"
 ).innerHTML = new Date().getFullYear());
 
-// ********** nav toggle ************
+// ********** Nav Toggle ************
 // select button and links
 const navBtn = document.getElementById("nav-toggle");
 const links = document.getElementById("nav-links");
@@ -13,7 +13,7 @@ navBtn.addEventListener("click", () => {
   links.classList.toggle("show-links");
 });
 
-// ********** smooth scroll ************
+// ********** Smooth Scroll ************
 // select links
 const scrollLinks = document.querySelectorAll(".scroll-link");
 scrollLinks.forEach(link => {
